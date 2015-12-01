@@ -51,16 +51,21 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <nav id="site-navigation" class="navigation main-navigation clr" role="navigation">
-                <?php
-                // Display main menu
-                wp_nav_menu( array(
-                  'theme_location'	=> 'main_menu',
-                  'sort_column'		=> 'menu_order',
-                  'menu_class'		=> 'drop-menu sf-menu',
-                  'fallback_cb'		=> false
-                ) ); ?>
-              </nav><!-- #site-navigation -->
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
